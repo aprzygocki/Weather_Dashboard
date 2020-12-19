@@ -1,0 +1,1 @@
+A simple 5-day weather forecast with temperature, humidity, UV index, and others to tell you what kind of day it will be in a given city. You can toggle back to cities you have previously searched the weather for.
