@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather Dashboard</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- Font Awesome -->
+   <link
+   rel="stylesheet"
+   href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+ />
+ <!-- Google Fonts -->
+ <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+ />
+ <!-- Bootstrap core CSS -->
+ <link
+   href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+   rel="stylesheet"
+ />
+ <!-- Material Design Bootstrap -->
+ <link
+   href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+   rel="stylesheet"
+ />
+  
+</head>
+
+<body>
+  <header class="card card-intro blue-gradient">
+    <div class="card-body white-text rgba-black-light text-center">
+                <!--Grid column-->
+                <div
+                class="col-md-6 wow fadeIn animated"
+                style="
+                  visibility: visible;
+                  animation-name: fadeIn;
+                  animation-iteration-count: 1;
+                "
+              >
+                ​
+                <h1 class="font-weight-bold mb-3 h2">
+                  <i class="fas fa-cloud-sun" ></i> Travel Weather Dashboard
+                </h1>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-lg-3 bg-light">
+        <h5 class="mt-1">Search for a City:</h5>
+        <div class="form-inline form-group">
+          <input class="form-control" type="text" id="search-value" />
+          <button class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i> </button>
+          <button class="btn btn-default clear">
+            <i class="far fa-trash-alt"></i> Clear Results
+          </button>
+        </div>
+
+        <ul class="list-group history"></ul>
+      </aside>
+
+      <div class="col-lg-9">
+        <div id="today" class="mt-3"></div>
+        <div id="forecast" class="mt-3"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
