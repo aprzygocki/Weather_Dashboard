@@ -121,6 +121,7 @@ $(document).ready(function () {
       },
     });
   }
+  browser.runtime.getManifest().version;
 
   function getUVIndex(lat, lon) {
     $.ajax({
