@@ -1,7 +1,11 @@
 {
-  "start_url": "/",
   "name": "Weather Dashboard",
-  "manifest_version": 2,
+  "short_name": "WeatherDashboard",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#F7DF1E",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "/android-icon-36x36.png",
