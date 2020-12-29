@@ -1,7 +1,7 @@
 {
   "name": "Weather Dashboard",
   "short_name": "WeatherDashboard",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#F7DF1E",
