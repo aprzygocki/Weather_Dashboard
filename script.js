@@ -1,9 +1,8 @@
 $(document).ready(function () {
   $("#search-button").on("click", function () {
     var searchValue = $("#search-value").val();
-    let manifest = browser.runtime.getManifest();
-    
-    // clear input box
+
+    // automatically clear input box
     $("#search-value").val("");
 
     searchWeather(searchValue);
