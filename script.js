@@ -1,7 +1,8 @@
 $(document).ready(function () {
   $("#search-button").on("click", function () {
     var searchValue = $("#search-value").val();
-
+    let manifest = browser.runtime.getManifest();
+    
     // clear input box
     $("#search-value").val("");
 
@@ -159,4 +160,5 @@ $(document).ready(function () {
   for (var i = 0; i < history.length; i++) {
     makeRow(history[i]);
   }
+
 });
